@@ -53,7 +53,7 @@ class UserController {
 
     // pega os valores no body da requisição do usuário
     const { email, oldPassword } = req.body;
-    console.log(oldPassword);
+
     // busca no banco de dados os dados do usuario que foi autenticado
     // criar uma constante com o nome 'user' contendo todos os dados do usuario
     // (findByPk) filtrado atraves do id (req.userId) retirado do token
